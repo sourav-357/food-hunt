@@ -1,0 +1,53 @@
+.card {
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.content h3 {
+  margin: 0 0 0.35rem;
+}
+
+.content p {
+  margin: 0 0 1rem;
+  color: #6b7280;
+}
+
+.actions {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.linkButton,
+.favouriteButton {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 0.7rem 0.9rem;
+  text-align: center;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.linkButton {
+  background: #111827;
+  color: white;
+}
+
+.favouriteButton {
+  background: #ffe4e6;
+  color: #be123c;
+}

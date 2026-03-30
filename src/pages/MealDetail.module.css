@@ -1,0 +1,54 @@
+.page {
+  display: grid;
+  gap: 1rem;
+}
+
+.backLink {
+  color: #be123c;
+  font-weight: 600;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  display: grid;
+  gap: 1rem;
+}
+
+.image {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+}
+
+.content {
+  padding: 1.2rem;
+}
+
+.content h1 {
+  margin-top: 0;
+}
+
+.actionButton {
+  border: none;
+  background: #be123c;
+  color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  margin: 0.75rem 0 1rem;
+}
+
+.section {
+  margin-top: 1rem;
+}
+
+.section ul {
+  padding-left: 1.1rem;
+}
+
+.section p {
+  line-height: 1.7;
+}

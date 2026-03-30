@@ -1,0 +1,21 @@
+.bar {
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  padding-bottom: 0.35rem;
+}
+
+.button {
+  border: 1px solid #fecdd3;
+  background: white;
+  color: #9f1239;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.active {
+  background: #be123c;
+  color: white;
+}
