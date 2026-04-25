@@ -1,4 +1,4 @@
-# FoodHunt 🍽️
+# FoodHunt
 
 FoodHunt is a simple **React + Vite** meal discovery app that helps users explore recipes, search meals by name, filter by category, and save favourites for later.
 
